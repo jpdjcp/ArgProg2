@@ -7,10 +7,6 @@
 }
 
 body {
-    background-color: rgb(160, 160, 160);
-}
-
-header {
     background-color: rgb(240, 238, 238);
 }
 
@@ -27,6 +23,32 @@ header {
 }
 
 .banner {
-    height: 40em;
+    height: 30em;
     overflow: hidden;
+}
+
+.profile-img {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+section, header {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.acerca-de {
+    align-items: center;
+}
+
+.logo-emp-inst {
+    width: 90px;
+    height: 90px;
+    border-radius: 75px;
 }
